@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            coding @ dusk
 tagline:          'rambles'
 description:      'rambles about code, tech, and cats.'
-url:              https://fongandrew.github.io/hydeout
+url:              https://alycejenni.github.io
 baseurl:          ''
 
 author:
@@ -16,7 +16,7 @@ author:
 paginate:         5
 paginate_path:    '/page:num'
 
-theme: jekyll-theme-hydeout
+remote_theme: 'fongandrew/hydeout'
 
 plugins:
   - jekyll-feed
