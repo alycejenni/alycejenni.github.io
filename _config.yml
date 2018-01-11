@@ -4,15 +4,13 @@ highlighter:      rouge
 
 # Setup
 title:            coding @ dusk
-tagline:          'rambles'
-description:      'rambles about code, tech, and cats.'
+tagline:          'rambles about code, cats, and other nonsense.'
+description:      'rambles about code, cats, and other nonsense.'
 url:              https://alycejenni.github.io
 baseurl:          ''
+version:          0.1
 
-author:
-  name:           'alycejenni'
-  url:            https://twitter.com/alicejelly
-
+# plugins and themes
 paginate:         5
 paginate_path:    '/page:num'
 
@@ -23,10 +21,16 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-# Custom vars
-version:            3.5.3
+# author
+author:
+  name:           'Alice Butcher'
+  github:         'alycejenni'
+  twitter:        'alicejelly'
+github:
+  repo: https://github.com/alycejenni/alycejenni.github.io
+disqus:
+  shortname:      'alycejenni'
+
+
+# hydeout
 sidebar_home_link:  true
-
-
-github:             alycejenni
-twitter:            alicejelly

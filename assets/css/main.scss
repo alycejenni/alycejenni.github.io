@@ -1,0 +1,35 @@
+---
+# scss variable overrides
+---
+
+@import "colours";
+@import "typography";
+
+// backgrounds
+$sidebar-bg-color: $mid;
+$body-bg: $light;
+
+// text
+$body-color: $darkest;
+$body-muted: $dark;
+$heading-color: $dark;
+$root-font-family: $body-font;
+$code-font-family: $code-font;
+
+// import the main theme
+@import "hydeout";
+
+// override some stuff
+h1, h2, .site-title a {
+  font-family: $code-font !important;
+}
+.site-title {
+  letter-spacing: 0.1em !important;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      $dark-desat,
+      $mid);
+}
