@@ -18,7 +18,7 @@ rm -rf _site
 mkdir _site
 
 # clone remote repo to "_site"
-git clone ${DEPLOY_REPO}
+git clone ${DEPLOY_REPO} --branch gh-pages _site
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
@@ -29,4 +29,4 @@ git config user.email "alycejenni@gmail.com"
 git config user.name "Alice Butcher"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push
+git push --force origin gh-pages
