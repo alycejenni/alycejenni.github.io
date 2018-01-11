@@ -18,7 +18,7 @@ rm -rf _site
 mkdir _site
 
 # clone remote repo
-git clone ${DEPLOY_REPO}
+git clone -b dev ${DEPLOY_REPO}
 cd alycejenni.github.io
 
 # build with Jekyll into "_site"
@@ -27,6 +27,7 @@ bundle exec jekyll build
 # push
 git config user.email "alycejenni@gmail.com"
 git config user.name "Alice Butcher"
+git checkout master
 git add --all
 git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
 git push
