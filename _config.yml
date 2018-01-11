@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            coding @ dusk
+tagline:          'rambles'
+description:      'rambles about code, tech, and cats.'
+url:              https://fongandrew.github.io/hydeout
+baseurl:          ''
+
+author:
+  name:           'alycejenni'
+  url:            https://twitter.com/alicejelly
+
+paginate:         5
+paginate_path:    '/page:num'
+
+theme: jekyll-theme-hydeout
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            3.5.3
+sidebar_home_link:  true
+
+
+github:             alycejenni
+twitter:            alicejelly
