@@ -17,16 +17,16 @@ set -e
 rm -rf _site
 mkdir _site
 
-# clone remote repo to "_site"
+# clone remote repo
 git clone ${DEPLOY_REPO}
+cd alycejenni.github.io
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
 
 # push
-cd _site
 git config user.email "alycejenni@gmail.com"
 git config user.name "Alice Butcher"
 git add --all
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
 git push
