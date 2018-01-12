@@ -16,7 +16,7 @@ set -e
 rm -rf alycejenni.github.io
 
 # clone remote repo
-git clone -b dev ${DEPLOY_REPO}
+git clone -b dev ${REPO}
 cd alycejenni.github.io
 
 # build with Jekyll
