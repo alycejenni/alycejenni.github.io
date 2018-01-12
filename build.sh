@@ -7,14 +7,6 @@ DEPLOY_REPO="https://${GITHUB_TOKEN}@github.com/alycejenni/alycejenni.github.io.
 # enable error reporting to the console
 set -e
 
-# cleanup
-ls -A
-rm -rf alycejenni.github.io
-
-# clone dev
-git clone -b dev ${DEPLOY_REPO}
-cd alycejenni.github.io
-
 # build
 bundle exec jekyll build
 
