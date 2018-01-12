@@ -34,3 +34,5 @@ disqus:
 
 # hydeout
 sidebar_home_link:  true
+
+exclude: [vendor]
