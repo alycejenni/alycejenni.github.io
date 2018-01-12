@@ -10,9 +10,8 @@ rm -rf _site
 # build
 bundle exec jekyll build
 
-# copy the git repo into the _site folder
-cp -r .git _site/
-cd _site
+rm -rf !(.git|_site)
+mv _site/* ./
 
 # push
 git remote set-url origin $DEPLOY_REPO
