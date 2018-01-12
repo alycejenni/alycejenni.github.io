@@ -2,10 +2,10 @@
 
 set -e
 
-DEPLOY_REPO="https://${GITHUB_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
+DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
 
-# enable error reporting to the console
-set -e
+# remove _site
+rm -rf _site
 
 # build
 bundle exec jekyll build
@@ -15,8 +15,7 @@ cp -r .git _site/
 cd _site
 
 # push
-git config user.email "alycejenni@gmail.com"
-git config user.name "Travis"
-git add --all
+git remote set-url origin $DEPLOY_REPO
+git add .
 git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
 git push --force --no-verify origin dev:master
