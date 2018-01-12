@@ -21,15 +21,5 @@ mkdir _site
 git clone -b dev ${DEPLOY_REPO}
 cd alycejenni.github.io
 
-# switch to master
-git checkout master
-
 # build with Jekyll into "_site"
 bundle exec jekyll build
-
-# push
-git config user.email "alycejenni@gmail.com"
-git config user.name "Alice Butcher"
-git add --all
-git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
-git push

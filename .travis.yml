@@ -9,6 +9,13 @@ install:
 - bundle install
 script:
 - "sh ./build.sh"
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $DEPLOY_BLOG_TOKEN
+  keep-history: true
+  on:
+    branch: master
 env:
   global:
   - secure: IBvLT5LELQIf1Qy309PFc3ygyzCUqXBcQMH/aB7+84CG4pSFfh3L+BhMmNLGe5BJQxJVUFY3j5lpvdxinfPSiKw3Z83R8PHJce8OoxcXoYwsKiR/rVhOVJdt2vvBvLkGVNPHIJacRO7ed5hBUxrIRl2ie8u8FIQTTVyUnZ5iYd98hCzHPNs+N6AvpGy+qzaIcA9bIn0rfBagBPlD125k06aidCsjlC55Z6hP9K4pQH2nw7stZ8JLGfx4AeLOWOGgD8Ac19dSboPtDirZhjDiAU8dsDjHvFU3LQkIBMMcGv8mnCr9uifpo8W5UZbghV+iwGWCxRcc5VOfCIvWtYX8nDmExU8tIaivYLRLlGC5uky2eJkBkl1GyCRQpb9y9DF+X2MGoH2jT2STQJSLgaqBby+sb55lgt9TJg+lLXhVGrP1RsdlPb2kz/IYrEkUL4BFGxSpqTTzq0uXt9IaWLO0unMu3GIIH48kYksRdo/I/JamTO81ejIjVh5fOEu+7FwqLohRD2MyVB4wCpaG4umwZvW+ybuXxrPSMvCAMvxcz4WU5AhAvxPt/w1ZSSdjhO7lgE2Q2ctcc5p/fwlMn1OIIy4dNbQSiuUwJ5CO4C2WnkjiW7/EsqW32kdNbgioY242av4JXPZP/Wr22akD/w2zRubYUsq1mWGy3pglqemhU3s=
