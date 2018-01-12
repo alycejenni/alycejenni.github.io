@@ -3,7 +3,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
+REPO="https://github.com/alycejenni/alycejenni.github.io.git"
 
 # skip if build is triggered by pull request
 if [ $TRAVIS_PULL_REQUEST == "true" ]; then
@@ -13,13 +13,11 @@ fi
 # enable error reporting to the console
 set -e
 
-# cleanup "_site"
-rm -rf _site
-mkdir _site
+rm -rf alycejenni.github.io
 
 # clone remote repo
 git clone -b dev ${DEPLOY_REPO}
 cd alycejenni.github.io
 
-# build with Jekyll into "_site"
+# build with Jekyll
 bundle exec jekyll build
