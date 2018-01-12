@@ -2,7 +2,7 @@
 
 set -e
 
-DEPLOY_REPO="https://${DEPLOY_BLOG_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
+DEPLOY_REPO="https://${TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
 
 # remove _site
 rm -rf _site
