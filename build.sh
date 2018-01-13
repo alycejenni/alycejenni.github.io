@@ -14,7 +14,6 @@ shopt -s extglob
 rm -rf -- !(.git|_site|.|..)
 mv _site/* ./
 ls -A
-git branch
 
 # push
 git remote set-url origin $DEPLOY_REPO

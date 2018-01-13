@@ -4,4 +4,4 @@
 
 ---
 
-if I can ever get this to WORK, this will be another stupid blog...
+another stupid blog :)
