@@ -13,6 +13,7 @@ bundle exec jekyll build
 shopt -s extglob
 rm -rf -- !(.git|_site|.|..)
 mv _site/* ./
+ls -A
 
 # push
 git remote set-url origin $DEPLOY_REPO
