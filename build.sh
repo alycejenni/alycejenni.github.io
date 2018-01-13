@@ -2,21 +2,21 @@
 
 set -e
 
-DEPLOY_REPO="https://${GITHUB_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
-
 # remove _site
 rm -rf _site
 
 # build
 bundle exec jekyll build
 
-shopt -s extglob
-rm -rf -- !(.git|_site|.|..)
-mv _site/* ./
-ls -A
+# change to build directory
+cd _site
 
-# push
-git remote set-url origin $DEPLOY_REPO
+# set up a new git repo
+git init
+DEPLOY_REPO="https://${GITHUB_TOKEN}@github.com/alycejenni/alycejenni.github.io.git"
+git remote add origin $DEPLOY_REPO
+
+# deploy
 git add .
 git reset Gemfile*
 git reset build.sh
