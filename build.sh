@@ -11,7 +11,7 @@ rm -rf _site
 bundle exec jekyll build
 shopt -s extglob
 
-rm -rf -- !(.git|_site)
+rm -rf -- !(.git|_site|.|..)
 mv _site/* ./
 
 # push
