@@ -9,8 +9,8 @@ rm -rf _site
 
 # build
 bundle exec jekyll build
-shopt -s extglob
 
+shopt -s extglob
 rm -rf -- !(.git|_site|.|..)
 mv _site/* ./
 
