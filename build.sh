@@ -14,9 +14,10 @@ shopt -s extglob
 rm -rf -- !(.git|_site|.|..)
 mv _site/* ./
 ls -A
+git branch
 
 # push
 git remote set-url origin $DEPLOY_REPO
 git add .
 git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
-git push --force --no-verify origin dev:master
+git push --force --no-verify origin HEAD:master
