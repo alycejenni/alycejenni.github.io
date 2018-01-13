@@ -7,6 +7,7 @@ rm -rf _site
 
 # build
 bundle exec jekyll build
+cp CNAME _site/
 
 # change to build directory
 cd _site
