@@ -18,5 +18,7 @@ ls -A
 # push
 git remote set-url origin $DEPLOY_REPO
 git add .
+git reset Gemfile*
+git reset build.sh
 git commit -a -m ":rocket: #$TRAVIS_BUILD_NUMBER"
 git push --force --no-verify origin HEAD:master
