@@ -1,6 +1,5 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      rouge
 
 # Setup
 title:            coding @ dusk
@@ -13,6 +12,7 @@ version:          0.1
 # plugins and themes
 paginate:         5
 paginate_path:    '/page:num'
+excerpt_separator:  <!--more-->
 
 theme: 'jekyll-theme-hydeout'
 
@@ -20,6 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-category-pages
 
 # author
 author:
@@ -32,7 +33,8 @@ disqus:
   shortname:      'alycejenni'
 
 
-# hydeout
+# plugin settings
 sidebar_home_link:  true
+category_layout: category.html
 
 exclude: [vendor]

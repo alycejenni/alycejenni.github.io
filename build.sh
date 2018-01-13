@@ -11,6 +11,7 @@ cp CNAME _site/
 
 # change to build directory
 cd _site
+rm Gemfile*
 
 # set up a new git repo
 git init
