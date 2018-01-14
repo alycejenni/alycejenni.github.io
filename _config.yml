@@ -13,6 +13,7 @@ version:          0.1
 paginate:         5
 paginate_path:    '/page:num'
 excerpt_separator:  <!--more-->
+permalink: /:year/:month/:title/
 
 theme: 'jekyll-theme-hydeout'
 

@@ -51,7 +51,7 @@ frontMatter: """
 layout: "{layout}"
 title: "{title}"
 date: "{date}"
-excerpt_separator:  <!--more-->
+categories: []
 ---
 """
 
