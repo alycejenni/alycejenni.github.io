@@ -15,6 +15,7 @@ $body-muted: $dark;
 $heading-color: $dark;
 $root-font-family: $body-font;
 $code-font-family: $code-font;
+$link-color: $dark;
 
 // import the main theme
 @import "hydeout";
@@ -22,9 +23,13 @@ $code-font-family: $code-font;
 // override some stuff
 h1, h2, .site-title a {
   font-family: $code-font !important;
+  text-transform: none !important;
 }
 .site-title {
   letter-spacing: 0.1em !important;
+}
+.home-link {
+  text-transform: lowercase;
 }
 
 body {
@@ -55,4 +60,12 @@ img {
   color: $red;
   border-radius: 5px;
   margin: 30px auto;
+}
+
+.category-list {
+  margin-left: 0;
+  padding-left: 0;
+  &, & ul {
+    list-style-type: none;
+  }
 }

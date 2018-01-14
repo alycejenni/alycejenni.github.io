@@ -2,7 +2,6 @@
 layout: "post"
 title: "the cat flap: introduction"
 date: "2018-01-14"
-categories: [raspberry-pi]
 tags: [cat, raspberry-pi]
 ---
 
