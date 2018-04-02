@@ -25,6 +25,13 @@ h1, h2, .site-title a {
   font-family: $code-font !important;
   text-transform: none !important;
 }
+h2 {
+  padding-top: 2em;
+  border-top: 2px solid $mid;
+}
+h3 {
+  padding-top: 1em;
+}
 .site-title {
   letter-spacing: 0.1em !important;
 }
@@ -39,9 +46,23 @@ body {
       $mid);
 }
 
+blockquote {
+  ::before {
+    content: "> ";
+  }
+  color: $mid;
+  border: none;
+  font-size: 1.5em;
+  font-family: $code-font;
+}
+
 img {
   margin-left: auto;
   margin-right: auto;
+}
+
+video {
+  @extend img;
 }
 
 .caption {
