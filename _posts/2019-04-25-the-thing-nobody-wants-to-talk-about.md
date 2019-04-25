@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "the thing nobody wants to talk about"
-date: "2019-04-07"
+date: "2019-04-25"
 categories: [mental illness]
 ---
 
