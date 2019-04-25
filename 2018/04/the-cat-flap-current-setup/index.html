@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      the cat flap: current setup &middot; coding @ dusk
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        coding @ dusk
+      </a>
+    </div>
+    <p class="lead">rambles about code, cats, and other nonsense.</p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about/">about</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+
+  
+    <span class="site-version">Currently v0.2</span>
+  
+
+  <nav id="sidebar-icon-links">
+  
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="https://github.com/alycejenni/alycejenni.github.io">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+    </a>
+    <a id="github-download-link"
+       class="icon" title="Download" aria-label="Download"
+       href="https://github.com/alycejenni/alycejenni.github.io/archive/v0.2.zip">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+    <a id="tags-link"
+       class="icon"
+       title="Tags" aria-label="Tags"
+       href="/tags/">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+    </a>
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2019.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">the cat flap: current setup</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">02 Apr 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/cat/">
+          cat
+        </a>
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/raspberry-pi/">
+          raspberry-pi
+        </a>
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <blockquote>
+  <p>“Hey, did you give the cat half a dead rabbit for dinner?”</p>
+</blockquote>
+
+<p>Even in my own dream, this earns me a strange look.</p>
+
+<p class="warning"><em>warning: More talk of my cat’s hunting activities in this post.</em></p>
+
+<!--more-->
+
+<p>As it turned out, my imaginary housemates weren’t serving up bisected bunnies along with his usual <em>Whiskas</em>; the little bugger had taken it upon himself to supplement his meals with fresh meat by keeping a larder of live animals underneath the floorboards. Alas, my dream-self wasn’t monitoring the dream-catflap with a dream-PiCamera. If I had been, I would have seen him sneaking them in…</p>
+
+<p><img src="/assets/images/hereiam.jpg" alt="brazenly carrying a rabbit in through the catflap" /></p>
+
+<p class="caption">this poor bunny actually survived the encounter</p>
+
+<h2 id="hardware">hardware</h2>
+<p>Aesthetically, it is not the most pleasing setup.</p>
+
+<p><img src="/assets/images/setup-whole-labelled.jpg" alt="the whole setup" /></p>
+
+<p>I have tried my best to make it look nice, but there’s only so much I can do when one of the cat’s favourite activities is ruining things I’ve made for him.</p>
+
+<video autoplay="" muted="" loop="">
+        <source src="http://s3.eu-west-2.amazonaws.com/isthecatin-images/cat_1495606756_1777022-0.mp4" type="video/mp4" />
+        this is a video, and apparently your browser doesn't support that.
+</video>
+
+<p class="caption">kindly demonstrating my point about destroying things</p>
+
+<p>The centrepiece of the setup is the <a href="https://www.raspberrypi.org">Raspberry Pi</a> (commonly abbreviated to <em>RPi</em> or just <em>pi</em>). At the moment it’s an RPi 3 running <em>Raspbian 8.0 (jessie)</em>, but previously it was an RPi 2 that worked just as well.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    .',;:cc;,'.    .,;::c:,,.    
+   ,ooolcloooo:  'oooooccloo:    OS: Raspbian 8.0 jessie
+   .looooc;;:ol  :oc;;:ooooo'    Kernel: armv7l Linux 4.9.35-v7+
+     ;oooooo:      ,ooooooc.     Uptime: 60d 18h 19m
+       .,:;'.       .;:;'.       Packages: 1459
+       .... ..'''''. ....        Shell: 21232
+     .''.   ..'''''.  ..''.      CPU: ARMv7 rev 4 (v7l) @ 1.2GHz
+     ..  .....    .....  ..      RAM: 124MB / 859MB
+    .  .'''''''  .''''''.  .    
+  .'' .''''''''  .'''''''. ''.  
+  '''  '''''''    .''''''  '''  
+  .'    ........... ...    .'.  
+    ....    ''''''''.   .''.    
+    '''''.  ''''''''. .'''''    
+     '''''.  .'''''. .'''''.    
+      ..''.     .    .''..      
+            .'''''''            
+             ......       
+</code></pre></div></div>
+
+<p>I don’t have a screen attached to it - everything is done over ssh.</p>
+
+<p>I have a <a href="https://www.raspberrypi.org/products/pi-noir-camera-v2">Pi NoIR</a> camera aimed at the catflap, and an independently powered 12V infrared LED array hot-glued to the wall so I can catch any midnight shenanigans.</p>
+
+<video autoplay="" muted="" loop="">
+        <source src="http://s3.eu-west-2.amazonaws.com/isthecatin-images/cat_1505766947_1002002-1.mp4" type="video/mp4" />
+        this is a video, and apparently your browser doesn't support that.
+</video>
+
+<p class="caption">…like getting trapped in our washing</p>
+
+<p>The buzzer is there literally just so I can annoy my housemates by making it beep repeatedly while I’m at work and they’re not. I’m a good friend.</p>
+
+<video autoplay="" muted="" loop="">
+        <source src="/assets/images/video-1502711527.mp4" type="video/mp4" />
+        this is a video, and apparently your browser doesn't support that.
+</video>
+
+<h2 id="software">software</h2>
+<p>I used Python 3.6 to write the monitoring program. I’m in the process of doing an almost complete rewrite of the code to make it way more extensible and user-friendly, but in all fairness the kinda hacky code I’ve got running at the moment has been going for several months without too many issues. Crashes are generally due to our shitty Internet connection dropping out at an inopportune moment or because one of my housemates has accidentally unplugged the pi so they can use the iron.</p>
+
+<p>These are a few libraries/modules that are particularly important in the program:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://opencv.org">opencv</a></td>
+      <td>this is the heart of the program; I use it to detect motion in the camera’s field of view. I won’t lie, this was a <em>bitch</em> to install on the Pi. If you’re running it on anything except ARM architecture (like a Pi), the <a href="https://github.com/skvark/opencv-python">opencv-python</a> package is excellent.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/boto/boto">boto</a></td>
+      <td>(not boto3 yet) for uploading to Amazon S3.</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.python-requests.org">requests</a></td>
+      <td>primarily for sending notifications to <a href="https://telegram.org">Telegram</a> via <a href="https://ifttt.com">IFTTT</a> webhooks.</td>
+    </tr>
+    <tr>
+      <td><a href="https://picamera.readthedocs.io">picamera</a></td>
+      <td>controlling the Pi NoIR camera.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I referred to <a href="https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv">Adrian Rosebrock’s tutorials</a> a lot while writing the initial code.</p>
+
+<h3 id="how-it-works-an-overview">how it works: an overview</h3>
+
+<p><img src="/assets/images/stages.gif" alt="a series of comparisons" /></p>
+
+<p>When the program runs, the <code class="highlighter-rouge">MotionDetector</code> class starts capturing frames as <a href="http://numpy.org"><code class="highlighter-rouge">numpy</code></a> arrays.</p>
+
+<p>An empty RGB array is constructed:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">empty_frame</span> <span class="o">=</span> <span class="n">PiRGBArray</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cam</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cam</span><span class="o">.</span><span class="n">resolution</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>And that array is reused repeatedly as new frames are captured:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">cam</span><span class="o">.</span><span class="n">capture_continuous</span><span class="p">(</span><span class="n">empty_frame</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s">"bgr"</span><span class="p">,</span> <span class="n">use_video_port</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+    <span class="c1"># --- &lt;frame processing here&gt; ---
+</span>    <span class="k">if</span> <span class="n">motion_detected</span><span class="p">:</span>
+      <span class="n">video_frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>  <span class="c1"># save the frame if it's relevant
+</span>    <span class="n">empty_frame</span><span class="o">.</span><span class="n">truncate</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>  <span class="c1"># empty the frame
+</span></code></pre></div></div>
+
+<p>Motion is detected using <em>background subtraction</em>. Ultimately, this just means working out what’s changed between this frame and the past few frames.</p>
+
+<p>Stuff moves around a lot in my house. The catflap is in the conservatory by the back door, so drying clothes and muddy shoes are constantly moving in and out of shot. And, of course, light changes are very noticeable in a transparent room. If I didn’t account for this, every time the sun went down the camera would be <em><a href="https://xkcd.com/1391">freaking out</a></em>.</p>
+
+<p>There are a few things the program does when constructing the <strong>background</strong> and comparing frames to help reduce the effects of all the tiny irrelevant details.</p>
+
+<p>The <strong>comparison frame</strong> is:</p>
+<ol>
+  <li>Converted to greyscale.</li>
+  <li>Gaussian blurred to filter out some of the minor details.</li>
+</ol>
+
+<p>Then the <strong>background</strong> is created by overlaying the <strong>comparison frame</strong> onto the previous <strong>background</strong>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="n">greyscale_frame</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_BGR2GRAY</span><span class="p">)</span>
+   <span class="n">blurred_frame</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">GaussianBlur</span><span class="p">(</span><span class="n">greyscale_frame</span><span class="p">,</span> <span class="p">(</span><span class="mi">21</span><span class="p">,</span> <span class="mi">21</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+   <span class="n">cv2</span><span class="o">.</span><span class="n">accumulateWeighted</span><span class="p">(</span><span class="n">greyscale_frame</span><span class="p">,</span> <span class="n">current_background</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/bgs.gif" alt="a gif of 50 different backgrounds" /></p>
+
+<p class="caption">I save the background every time I stop the program; here’s how the background has changed over the past 8 months</p>
+
+<p>Movement is detected by looking for areas where the <strong>comparison frame</strong> differs from the <strong>background</strong>.</p>
+
+<ol>
+  <li>Calculate pixel-by-pixel luminosity deltas</li>
+  <li>Isolate areas where the difference is above a certain threshold</li>
+  <li>Expand the areas slightly</li>
+  <li>Detect contours/edges</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">frame_delta</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">absdiff</span><span class="p">(</span><span class="n">blurred</span><span class="p">,</span>
+                          <span class="n">cv2</span><span class="o">.</span><span class="n">convertScaleAbs</span><span class="p">(</span><span class="n">background</span><span class="p">))</span>
+
+<span class="n">frame_threshold</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">threshold</span><span class="p">(</span><span class="n">frame_delta</span><span class="p">,</span>
+                                <span class="mi">50</span><span class="p">,</span>
+                                <span class="mi">255</span><span class="p">,</span>
+                                <span class="n">cv2</span><span class="o">.</span><span class="n">THRESH_BINARY</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">frame_expanded</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">dilate</span><span class="p">(</span><span class="n">frame_threshold</span><span class="p">,</span>
+                            <span class="bp">None</span><span class="p">,</span>
+                            <span class="n">iterations</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">im2</span><span class="p">,</span> <span class="n">contours</span><span class="p">,</span> <span class="n">hier</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">findContours</span><span class="p">(</span><span class="n">frame_expanded</span><span class="p">,</span>
+                                       <span class="n">cv2</span><span class="o">.</span><span class="n">RETR_TREE</span><span class="p">,</span>
+                                       <span class="n">cv2</span><span class="o">.</span><span class="n">CHAIN_APPROX_SIMPLE</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The smaller contours are then filtered out - this stops the program being triggered by tiny movements like a tree rustling in the distance.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">large_contours</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">contours</span> <span class="k">if</span> <span class="n">cv2</span><span class="o">.</span><span class="n">contourArea</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">min_area</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>If there are any contours remaining above the <code class="highlighter-rouge">min_area</code> threshold size, it starts saving frames (the <strong>current frame</strong>, not the <strong>comparison frame</strong>). There are some tolerance and file size settings - e.g. a minimum/maximum number of frames per video, a maximum number of continuous frames without motion that counts as <em>motion ended</em> - but once it senses that nothing is moving any longer it stops.</p>
+
+<p>The saved frames are then written to a video file using opencv, and that file is uploaded to various services.</p>
+
+<p>Then, of course, I get a notification on my phone, and I can sit at work in quiet despair knowing that there’s a mouse currently being devoured under my dining room table.</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "https://alycejenni.uk/2018/04/the-cat-flap-current-setup/";
+    this.page.identifier = "" ||
+                           "https://alycejenni.uk/2018/04/the-cat-flap-current-setup/";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//alycejenni.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/2019/04/the-thing-nobody-wants-to-talk-about/">
+            the thing nobody wants to talk about
+            <small>25 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2018/01/the-cat-flap-introduction/">
+            the cat flap: introduction
+            <small>14 Jan 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci/">
+            deploying to github pages with travis ci
+            <small>13 Jan 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      deploying to github pages with travis ci &middot; coding @ dusk
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        coding @ dusk
+      </a>
+    </div>
+    <p class="lead">rambles about code, cats, and other nonsense.</p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about/">about</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+
+  
+    <span class="site-version">Currently v0.2</span>
+  
+
+  <nav id="sidebar-icon-links">
+  
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="https://github.com/alycejenni/alycejenni.github.io">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+    </a>
+    <a id="github-download-link"
+       class="icon" title="Download" aria-label="Download"
+       href="https://github.com/alycejenni/alycejenni.github.io/archive/v0.2.zip">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+    <a id="tags-link"
+       class="icon"
+       title="Tags" aria-label="Tags"
+       href="/tags/">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+    </a>
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2019.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">deploying to github pages with travis ci</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">13 Jan 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/meta/">
+          meta
+        </a>
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <p>Anyone who looks at the commit history for my github.io page will notice that I had a <em>little</em> bit of trouble getting it to work the way I wanted.</p>
+
+<p>So partly for my benefit and partly for anyone in the same boat who might stumble across this, I’m going to go through my now functional deployment process. It might not be the best way to do anything, and it might not be pretty, but it works and at the moment I’m happy with that.</p>
+
+<!--more-->
+
+<p>The local site was easy to set up. Everything built and ran fine. Then as soon as I <code class="highlighter-rouge">git push</code>, I’ve got an email saying my page build has failed. Turns out GitHub Pages is quite fussy about what it can build.</p>
+
+<p>After reading a few guides and blog posts much like this one, I decided to try and build the page using <a href="https://travis-ci.org">Travis CI</a> instead, then deploy to GitHub Pages from there. Unfortunately I’m an idiot who didn’t really know anything about either service beforehand, so this took <em>a lot</em> of trial, error, and commit messages like <code class="highlighter-rouge">:construction: gonna cry</code> and <code class="highlighter-rouge">:construction: aghhhh</code>.</p>
+
+<h2 id="requirements">requirements</h2>
+<ul>
+  <li>A working local install of your site (I’m using <a href="https://jekyllrb.com">Jekyll</a> but I’m just using bash scripts so this could work for anything)</li>
+  <li>A repository for your GitHub Pages site (see <a href="https://pages.github.com">here</a>)</li>
+</ul>
+
+<h2 id="github-setup">github setup</h2>
+
+<h3 id="branches">branches</h3>
+<p>GitHub Pages will display content from a specific branch of your repository. If it’s a project site, it’ll display from <code class="highlighter-rouge">gh-pages</code>, and if it’s a personal site, it’ll display from <code class="highlighter-rouge">master</code>.</p>
+
+<p>As far as I can tell, if it find something it could potentially build in that branch, like a <code class="highlighter-rouge">Gemfile</code>, it’ll try to build it. But if it’s just a collection of static HTML/CSS files then it’ll just display those. So with that in mind, my repo has two branches: <code class="highlighter-rouge">dev</code>, which contains all the build information, and <code class="highlighter-rouge">master</code>, which is just the site files. I don’t ever really need to push anything to <code class="highlighter-rouge">master</code> - everything goes to <code class="highlighter-rouge">dev</code>, Travis builds it, then pushes the build to <code class="highlighter-rouge">master</code>.</p>
+
+<h3 id="tokens">tokens</h3>
+<p>To give Travis permission to deploy your site, you’ll need to supply it with a <strong>personal access token</strong> from <a href="https://github.com/settings/tokens">github.com/settings/tokens</a>. I’ve given mine <code class="highlighter-rouge">repo</code>, <code class="highlighter-rouge">admin:repo_hook</code>, and <code class="highlighter-rouge">gist</code> permissions.</p>
+
+<p>Add the token value as an environment variable called <code class="highlighter-rouge">GITHUB_TOKEN</code> in the project settings on Travis.</p>
+
+<h2 id="build-script">build script</h2>
+<p>You need a script for Travis to run to build and deploy the site. I’ve called mine <code class="highlighter-rouge">build.sh</code> and it just lives in the root folder on <code class="highlighter-rouge">dev</code>.</p>
+
+<p>It has three main parts:</p>
+
+<h3 id="1-build">1. build</h3>
+<p>Whatever commands you need to build the site. For mine, this is pretty much just:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
+
+<h3 id="2-rearrange">2. rearrange</h3>
+<p>Organise the repository so it can be pushed to master. My site is built to a folder called <code class="highlighter-rouge">_site</code>, so I can just switch to that directory and set it up as a new git repository.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># change to build directory</span>
+<span class="nb">cd </span>_site
+
+<span class="c"># set up a new git repo</span>
+git init
+<span class="nv">DEPLOY_REPO</span><span class="o">=</span><span class="s2">"https://</span><span class="k">${</span><span class="nv">GITHUB_TOKEN</span><span class="k">}</span><span class="s2">@github.com/alycejenni/alycejenni.github.io.git"</span>
+git remote add origin <span class="nv">$DEPLOY_REPO</span>
+</code></pre></div></div>
+
+<h3 id="3-deploy">3. deploy</h3>
+<p>Actually commit and push everything.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># deploy</span>
+git add <span class="nb">.</span>
+git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s2">":rocket: #</span><span class="nv">$TRAVIS_BUILD_NUMBER</span><span class="s2">"</span>
+git push <span class="nt">--force</span> <span class="nt">--no-verify</span> origin HEAD:master
+</code></pre></div></div>
+
+<p>This <em>will</em> overwrite all your previous commits to the master branch, so if you want to keep them then you’ll have to find some other way around it. All the commits to dev are preserved though so that should be fine.</p>
+
+<h2 id="travis-setup">travis setup</h2>
+
+<h3 id="web-setup">web setup</h3>
+<p>There are only really two things you need to do:</p>
+
+<ol>
+  <li>Enable builds for your repo (go to your profile and flip the switch next to your repo name to ‘on’);</li>
+  <li>Add the <code class="highlighter-rouge">GITHUB_TOKEN</code> environment variable (see above).</li>
+</ol>
+
+<h3 id="travisyml">.travis.yml</h3>
+<p>This is the file in your root directory that tells travis how to build your project. Mine is largely based on <a href="https://jekyllrb.com/docs/continuous-integration/travis-ci">this guide</a> in the Jekyll docs.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># language to use</span>
+<span class="na">language</span><span class="pi">:</span> <span class="s">ruby</span>
+<span class="na">rvm</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="s">2.5.0</span>
+
+<span class="c1"># build script to run; just a shell command</span>
+<span class="na">before_script</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="s">chmod +x ./build.sh</span>
+<span class="na">script</span><span class="pi">:</span> <span class="s2">"</span><span class="s">./build.sh"</span>
+
+<span class="c1"># only run for pushes to these branches</span>
+<span class="na">branches</span><span class="pi">:</span>
+  <span class="na">only</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">dev</span>
+
+<span class="c1"># some variables for speed improvements</span>
+<span class="na">env</span><span class="pi">:</span>
+  <span class="na">global</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">NOKOGIRI_USE_SYSTEM_LIBRARIES=true</span>
+<span class="na">sudo</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<h2 id="thats-it">that’s it</h2>
+<p>Once that’s all set up, push to dev and Travis should start building. It might take a couple of minutes, but at the end it should then push your site to the <code class="highlighter-rouge">master</code> branch, which will then be displayed at your URL.</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "https://alycejenni.uk/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci/";
+    this.page.identifier = "" ||
+                           "https://alycejenni.uk/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci/";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//alycejenni.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/2019/04/the-thing-nobody-wants-to-talk-about/">
+            the thing nobody wants to talk about
+            <small>25 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2018/04/the-cat-flap-current-setup/">
+            the cat flap: current setup
+            <small>02 Apr 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2018/01/the-cat-flap-introduction/">
+            the cat flap: introduction
+            <small>14 Jan 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>

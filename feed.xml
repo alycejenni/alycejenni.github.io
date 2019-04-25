@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://alycejenni.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alycejenni.uk/" rel="alternate" type="text/html" /><updated>2019-04-25T17:23:28+00:00</updated><id>https://alycejenni.uk/feed.xml</id><title type="html">coding @ dusk</title><subtitle>rambles about code, cats, and other nonsense.</subtitle><author><name>Alice Butcher</name></author><entry><title type="html">the thing nobody wants to talk about</title><link href="https://alycejenni.uk/2019/04/the-thing-nobody-wants-to-talk-about/" rel="alternate" type="text/html" title="the thing nobody wants to talk about" /><published>2019-04-25T00:00:00+00:00</published><updated>2019-04-25T00:00:00+00:00</updated><id>https://alycejenni.uk/2019/04/the-thing-nobody-wants-to-talk-about</id><content type="html" xml:base="https://alycejenni.uk/2019/04/the-thing-nobody-wants-to-talk-about/">&lt;p&gt;I’m beginning to hate the term “mental health”.&lt;/p&gt;
+
+&lt;p&gt;It’s not that it’s a &lt;em&gt;bad&lt;/em&gt; term. Far from it. I’ve just come to the realisation, over the past few years, that it doesn’t apply to everyone, and I’m one of the unfortunate people that it claims to support but ultimately sidelines.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Let’s take &lt;em&gt;World Mental Health Day&lt;/em&gt;, 10th October, as an example. It’s an incredibly important and widely recognised initiative, and over the course of the day platforms like Twitter are flooded with messages of encouragement, solidarity, and education, aiming to try and break down the stigma surrounding mental health issues. In many ways, it’s lovely. In others, it’s… disappointing, because it’s just more of the same surface-level shit I’ve been seeing for years. Most of it is about people who aren’t too far from the ideal of “mental health”, who will probably never think of themselves as having a “mental illness” or “mental health disorder”. They’re “stressed” or they “had depression once”, rather than suffering from generalised anxiety disorder or major depressive disorder. And I wouldn’t ever want to silence those voices, because recognising that mental health can be cared for just as physical health can is very important, but at the same time it’s another space that I don’t feel like I fit into.&lt;/p&gt;
+
+&lt;p&gt;There are far fewer people talking about mental &lt;em&gt;illness&lt;/em&gt;: something so rife with stigma that even when it’s turning your life upside down you still have to pretend nothing’s happening. People don’t talk about how much depression &lt;em&gt;hurts&lt;/em&gt; when it’s filling your chest with self-loathing. They don’t tell stories about how excruciatingly embarrassing it is to have a panic attack in Tescos. Nobody talks about the “weird” and “scary” diagnoses, like schizophrenia, borderline personality disorder, or the one I was diagnosed with a few months ago - dissociative identity disorder.&lt;/p&gt;
+
+&lt;p&gt;Acceptance of people with mental health disorders and neurodivergences doesn’t mean only tolerating those who show mild, palatable symptoms that you can understand. Getting annoyed isn’t going to make the rest of us magically disappear.&lt;/p&gt;
+
+&lt;p&gt;An epithet I see often is “you are more than your mental illness”, which again is a great sentiment that’s been misconstrued by many people. It doesn’t mean that neurodiversity is such a small part of your life that you shouldn’t bother talking about it, because (by definition) it’s still going to affect your entire way of thinking. It shouldn’t be used to silence anybody. Then of course when you’re multiple, there’s a whole different layer of complexity: in an overly simplistic sense, your neurodivergence isn’t a part of your personality - your personality is part of your neurodivergence. Of course you’re still more than that, but it’s a foundation rather than a facet and it means that alters in a system cannot talk about themselves &lt;em&gt;at all&lt;/em&gt; without inherently talking about “&lt;em&gt;The Disorder&lt;/em&gt;” because their entire existence is based on it.&lt;/p&gt;
+
+&lt;p&gt;The point I’m trying to make here is that hiding this is a lot of effort and to be perfectly honest I don’t see why I should have to. If it’s just because it makes someone a little uncomfortable when I mention an alter’s name in passing, because then I’m talking about &lt;em&gt;The Disorder&lt;/em&gt; and that’s &lt;em&gt;wrong&lt;/em&gt;, then I don’t care. Your prejudices are your own problem and you really should take a long hard look at why that makes you so uncomfortable.&lt;/p&gt;</content><author><name>Alice Butcher</name></author><summary type="html">I’m beginning to hate the term “mental health”. It’s not that it’s a bad term. Far from it. I’ve just come to the realisation, over the past few years, that it doesn’t apply to everyone, and I’m one of the unfortunate people that it claims to support but ultimately sidelines.</summary></entry><entry><title type="html">the cat flap: current setup</title><link href="https://alycejenni.uk/2018/04/the-cat-flap-current-setup/" rel="alternate" type="text/html" title="the cat flap: current setup" /><published>2018-04-02T00:00:00+00:00</published><updated>2018-04-02T00:00:00+00:00</updated><id>https://alycejenni.uk/2018/04/the-cat-flap-current-setup</id><content type="html" xml:base="https://alycejenni.uk/2018/04/the-cat-flap-current-setup/">&lt;blockquote&gt;
+  &lt;p&gt;“Hey, did you give the cat half a dead rabbit for dinner?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even in my own dream, this earns me a strange look.&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;&lt;em&gt;warning: More talk of my cat’s hunting activities in this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;As it turned out, my imaginary housemates weren’t serving up bisected bunnies along with his usual &lt;em&gt;Whiskas&lt;/em&gt;; the little bugger had taken it upon himself to supplement his meals with fresh meat by keeping a larder of live animals underneath the floorboards. Alas, my dream-self wasn’t monitoring the dream-catflap with a dream-PiCamera. If I had been, I would have seen him sneaking them in…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hereiam.jpg&quot; alt=&quot;brazenly carrying a rabbit in through the catflap&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;this poor bunny actually survived the encounter&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware&quot;&gt;hardware&lt;/h2&gt;
+&lt;p&gt;Aesthetically, it is not the most pleasing setup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/setup-whole-labelled.jpg&quot; alt=&quot;the whole setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have tried my best to make it look nice, but there’s only so much I can do when one of the cat’s favourite activities is ruining things I’ve made for him.&lt;/p&gt;
+
+&lt;video autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
+        &lt;source src=&quot;http://s3.eu-west-2.amazonaws.com/isthecatin-images/cat_1495606756_1777022-0.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        this is a video, and apparently your browser doesn't support that.
+&lt;/video&gt;
+
+&lt;p class=&quot;caption&quot;&gt;kindly demonstrating my point about destroying things&lt;/p&gt;
+
+&lt;p&gt;The centrepiece of the setup is the &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;Raspberry Pi&lt;/a&gt; (commonly abbreviated to &lt;em&gt;RPi&lt;/em&gt; or just &lt;em&gt;pi&lt;/em&gt;). At the moment it’s an RPi 3 running &lt;em&gt;Raspbian 8.0 (jessie)&lt;/em&gt;, but previously it was an RPi 2 that worked just as well.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    .',;:cc;,'.    .,;::c:,,.    
+   ,ooolcloooo:  'oooooccloo:    OS: Raspbian 8.0 jessie
+   .looooc;;:ol  :oc;;:ooooo'    Kernel: armv7l Linux 4.9.35-v7+
+     ;oooooo:      ,ooooooc.     Uptime: 60d 18h 19m
+       .,:;'.       .;:;'.       Packages: 1459
+       .... ..'''''. ....        Shell: 21232
+     .''.   ..'''''.  ..''.      CPU: ARMv7 rev 4 (v7l) @ 1.2GHz
+     ..  .....    .....  ..      RAM: 124MB / 859MB
+    .  .'''''''  .''''''.  .    
+  .'' .''''''''  .'''''''. ''.  
+  '''  '''''''    .''''''  '''  
+  .'    ........... ...    .'.  
+    ....    ''''''''.   .''.    
+    '''''.  ''''''''. .'''''    
+     '''''.  .'''''. .'''''.    
+      ..''.     .    .''..      
+            .'''''''            
+             ......       
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I don’t have a screen attached to it - everything is done over ssh.&lt;/p&gt;
+
+&lt;p&gt;I have a &lt;a href=&quot;https://www.raspberrypi.org/products/pi-noir-camera-v2&quot;&gt;Pi NoIR&lt;/a&gt; camera aimed at the catflap, and an independently powered 12V infrared LED array hot-glued to the wall so I can catch any midnight shenanigans.&lt;/p&gt;
+
+&lt;video autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
+        &lt;source src=&quot;http://s3.eu-west-2.amazonaws.com/isthecatin-images/cat_1505766947_1002002-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        this is a video, and apparently your browser doesn't support that.
+&lt;/video&gt;
+
+&lt;p class=&quot;caption&quot;&gt;…like getting trapped in our washing&lt;/p&gt;
+
+&lt;p&gt;The buzzer is there literally just so I can annoy my housemates by making it beep repeatedly while I’m at work and they’re not. I’m a good friend.&lt;/p&gt;
+
+&lt;video autoplay=&quot;&quot; muted=&quot;&quot; loop=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/images/video-1502711527.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        this is a video, and apparently your browser doesn't support that.
+&lt;/video&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;software&lt;/h2&gt;
+&lt;p&gt;I used Python 3.6 to write the monitoring program. I’m in the process of doing an almost complete rewrite of the code to make it way more extensible and user-friendly, but in all fairness the kinda hacky code I’ve got running at the moment has been going for several months without too many issues. Crashes are generally due to our shitty Internet connection dropping out at an inopportune moment or because one of my housemates has accidentally unplugged the pi so they can use the iron.&lt;/p&gt;
+
+&lt;p&gt;These are a few libraries/modules that are particularly important in the program:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;name&lt;/th&gt;
+      &lt;th&gt;notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://opencv.org&quot;&gt;opencv&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;this is the heart of the program; I use it to detect motion in the camera’s field of view. I won’t lie, this was a &lt;em&gt;bitch&lt;/em&gt; to install on the Pi. If you’re running it on anything except ARM architecture (like a Pi), the &lt;a href=&quot;https://github.com/skvark/opencv-python&quot;&gt;opencv-python&lt;/a&gt; package is excellent.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/boto/boto&quot;&gt;boto&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;(not boto3 yet) for uploading to Amazon S3.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://docs.python-requests.org&quot;&gt;requests&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;primarily for sending notifications to &lt;a href=&quot;https://telegram.org&quot;&gt;Telegram&lt;/a&gt; via &lt;a href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; webhooks.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://picamera.readthedocs.io&quot;&gt;picamera&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;controlling the Pi NoIR camera.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I referred to &lt;a href=&quot;https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv&quot;&gt;Adrian Rosebrock’s tutorials&lt;/a&gt; a lot while writing the initial code.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-it-works-an-overview&quot;&gt;how it works: an overview&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/stages.gif&quot; alt=&quot;a series of comparisons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the program runs, the &lt;code class=&quot;highlighter-rouge&quot;&gt;MotionDetector&lt;/code&gt; class starts capturing frames as &lt;a href=&quot;http://numpy.org&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;numpy&lt;/code&gt;&lt;/a&gt; arrays.&lt;/p&gt;
+
+&lt;p&gt;An empty RGB array is constructed:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;empty_frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PiRGBArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cam&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cam&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And that array is reused repeatedly as new frames are captured:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cam&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture_continuous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;empty_frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bgr&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;use_video_port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# --- &amp;lt;frame processing here&amp;gt; ---
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;motion_detected&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;video_frames&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# save the frame if it's relevant
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;empty_frame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;truncate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# empty the frame
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Motion is detected using &lt;em&gt;background subtraction&lt;/em&gt;. Ultimately, this just means working out what’s changed between this frame and the past few frames.&lt;/p&gt;
+
+&lt;p&gt;Stuff moves around a lot in my house. The catflap is in the conservatory by the back door, so drying clothes and muddy shoes are constantly moving in and out of shot. And, of course, light changes are very noticeable in a transparent room. If I didn’t account for this, every time the sun went down the camera would be &lt;em&gt;&lt;a href=&quot;https://xkcd.com/1391&quot;&gt;freaking out&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are a few things the program does when constructing the &lt;strong&gt;background&lt;/strong&gt; and comparing frames to help reduce the effects of all the tiny irrelevant details.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;comparison frame&lt;/strong&gt; is:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Converted to greyscale.&lt;/li&gt;
+  &lt;li&gt;Gaussian blurred to filter out some of the minor details.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then the &lt;strong&gt;background&lt;/strong&gt; is created by overlaying the &lt;strong&gt;comparison frame&lt;/strong&gt; onto the previous &lt;strong&gt;background&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;n&quot;&gt;greyscale_frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cvtColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;COLOR_BGR2GRAY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;blurred_frame&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GaussianBlur&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greyscale_frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accumulateWeighted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greyscale_frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current_background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bgs.gif&quot; alt=&quot;a gif of 50 different backgrounds&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;I save the background every time I stop the program; here’s how the background has changed over the past 8 months&lt;/p&gt;
+
+&lt;p&gt;Movement is detected by looking for areas where the &lt;strong&gt;comparison frame&lt;/strong&gt; differs from the &lt;strong&gt;background&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Calculate pixel-by-pixel luminosity deltas&lt;/li&gt;
+  &lt;li&gt;Isolate areas where the difference is above a certain threshold&lt;/li&gt;
+  &lt;li&gt;Expand the areas slightly&lt;/li&gt;
+  &lt;li&gt;Detect contours/edges&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;frame_delta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;absdiff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blurred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convertScaleAbs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;frame_threshold&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame_delta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                &lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;THRESH_BINARY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;frame_expanded&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dilate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame_threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                            &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                            &lt;span class=&quot;n&quot;&gt;iterations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;im2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findContours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame_expanded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                       &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RETR_TREE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                       &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CHAIN_APPROX_SIMPLE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The smaller contours are then filtered out - this stops the program being triggered by tiny movements like a tree rustling in the distance.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;large_contours&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contours&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contourArea&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min_area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If there are any contours remaining above the &lt;code class=&quot;highlighter-rouge&quot;&gt;min_area&lt;/code&gt; threshold size, it starts saving frames (the &lt;strong&gt;current frame&lt;/strong&gt;, not the &lt;strong&gt;comparison frame&lt;/strong&gt;). There are some tolerance and file size settings - e.g. a minimum/maximum number of frames per video, a maximum number of continuous frames without motion that counts as &lt;em&gt;motion ended&lt;/em&gt; - but once it senses that nothing is moving any longer it stops.&lt;/p&gt;
+
+&lt;p&gt;The saved frames are then written to a video file using opencv, and that file is uploaded to various services.&lt;/p&gt;
+
+&lt;p&gt;Then, of course, I get a notification on my phone, and I can sit at work in quiet despair knowing that there’s a mouse currently being devoured under my dining room table.&lt;/p&gt;</content><author><name>Alice Butcher</name></author><summary type="html">“Hey, did you give the cat half a dead rabbit for dinner?” Even in my own dream, this earns me a strange look. warning: More talk of my cat’s hunting activities in this post.</summary></entry><entry><title type="html">the cat flap: introduction</title><link href="https://alycejenni.uk/2018/01/the-cat-flap-introduction/" rel="alternate" type="text/html" title="the cat flap: introduction" /><published>2018-01-14T00:00:00+00:00</published><updated>2018-01-14T00:00:00+00:00</updated><id>https://alycejenni.uk/2018/01/the-cat-flap-introduction</id><content type="html" xml:base="https://alycejenni.uk/2018/01/the-cat-flap-introduction/">&lt;p&gt;My cat, as I tell anyone who’ll listen, is a monster.&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;&lt;em&gt;warning: I’m going to talk about dead animals in this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sleepycat.jpg&quot; alt=&quot;sleepy kitty&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;He’s an adorable one, but a tyrant nonetheless. For starters he’s a big boy; not fat really, just built like a brick shithouse. That’s not much of a problem except it means he can take up more room when he’s trying to be annoying (which is always). No, the bigger problem is that my little kitty cat likes to hunt. And he is damn good at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/scritch.gif&quot; alt=&quot;scratching at all the bells we put on his collar&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;adding a bell to his collar every time he brought in a sacrifice didn’t seem to deter him&lt;/p&gt;
+
+&lt;p&gt;And yeah, he’s got bells on his collar. 8 of them, at one point. Doesn’t do much. We’ve had to accept that if he wants to spend his time murdering baby bunnies, there ain’t nothing we can do to stop him.&lt;/p&gt;
+
+&lt;p&gt;What we can do, however, is put our collective foot down and say “not in my house”. If he can sneak his prize past all of us, reach his favourite bunny-eating spot under the bush in the garden, and do whatever disgusting thing cats do with dead rabbits, then alright. You win this round, cat. We’ll be along later to clean up the entrails you’ve dumped in the middle of the lawn. But if he tries to bring it into the house to show it off then it’s an entirely different story. If you want to think of this in a positive sense, there is a bright side; the ones he brings in are more likely to still be alive, either because he thinks we’re useless and wants to teach us to hunt, or because he thinks it’s just hilarious watching us running round the house trying to catch these terrified animals.&lt;/p&gt;
+
+&lt;p&gt;Aside from saving the occasional bunny, we also don’t want him getting blood on the carpet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bunnyeatingbush.jpg&quot; alt=&quot;sleeping under his bunny-eating bush&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;this is his bunny eating bush&lt;/p&gt;
+
+&lt;p&gt;Of course, we can’t stop him if we can’t see him. Sometimes there’s someone nearby when he emerges from the catflap who can summon help by loudly calling him a few choice names. Sometimes he helpfully announces his own arrival with a series of loud meows (albeit slightly muffled through his mouthful of rabbit). But sometimes we have no way of knowing until someone wanders into the dining room and finds him underneath the table crunching away on a bit of spinal cord.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/murderboy.jpg&quot; alt=&quot;crunch away on bunny spinal cord&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;an actual thing that actually happened&lt;/p&gt;
+
+&lt;p&gt;And that is where the Raspberry Pi (the point of this series of posts) comes in. Being the offspring of this man:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://t.co/pmsC37TYK9&quot;&gt;The Internet of Things meets Data Science. Automatic low-Gin level alerting.&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/CbE0zq3XEAAkRgF.jpg&quot; alt=&quot;gin monitor&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;— John Butcher (@JohnaldButcher)&lt;/p&gt;
+
+  &lt;p&gt;February 13, 2016&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I of course realised that I could set up a camera pointing at the cat flap, use a few sensors to detect when the boy is using it, then set up various alerts via a website (&lt;a href=&quot;http://isthecat.in&quot;&gt;isthecat.in&lt;/a&gt;) and some web services like IFTTT and Instapush.&lt;/p&gt;
+
+&lt;p&gt;So that’s a quick introduction to the main reason why I have a camera aimed at my catflap. It’s taken me many failed setups to get this working the way I like it, so I’m planning to do a series of posts going through some of the different parts - what I have now, what didn’t work, and what I might do next.&lt;/p&gt;</content><author><name>Alice Butcher</name></author><summary type="html">My cat, as I tell anyone who’ll listen, is a monster. warning: I’m going to talk about dead animals in this post.</summary></entry><entry><title type="html">deploying to github pages with travis ci</title><link href="https://alycejenni.uk/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci/" rel="alternate" type="text/html" title="deploying to github pages with travis ci" /><published>2018-01-13T00:00:00+00:00</published><updated>2018-01-13T00:00:00+00:00</updated><id>https://alycejenni.uk/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci</id><content type="html" xml:base="https://alycejenni.uk/2018/01/building-a-jekyll-site-for-github-pages-with-travis-ci/">&lt;p&gt;Anyone who looks at the commit history for my github.io page will notice that I had a &lt;em&gt;little&lt;/em&gt; bit of trouble getting it to work the way I wanted.&lt;/p&gt;
+
+&lt;p&gt;So partly for my benefit and partly for anyone in the same boat who might stumble across this, I’m going to go through my now functional deployment process. It might not be the best way to do anything, and it might not be pretty, but it works and at the moment I’m happy with that.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The local site was easy to set up. Everything built and ran fine. Then as soon as I &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt;, I’ve got an email saying my page build has failed. Turns out GitHub Pages is quite fussy about what it can build.&lt;/p&gt;
+
+&lt;p&gt;After reading a few guides and blog posts much like this one, I decided to try and build the page using &lt;a href=&quot;https://travis-ci.org&quot;&gt;Travis CI&lt;/a&gt; instead, then deploy to GitHub Pages from there. Unfortunately I’m an idiot who didn’t really know anything about either service beforehand, so this took &lt;em&gt;a lot&lt;/em&gt; of trial, error, and commit messages like &lt;code class=&quot;highlighter-rouge&quot;&gt;:construction: gonna cry&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;:construction: aghhhh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;requirements&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;A working local install of your site (I’m using &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; but I’m just using bash scripts so this could work for anything)&lt;/li&gt;
+  &lt;li&gt;A repository for your GitHub Pages site (see &lt;a href=&quot;https://pages.github.com&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;github-setup&quot;&gt;github setup&lt;/h2&gt;
+
+&lt;h3 id=&quot;branches&quot;&gt;branches&lt;/h3&gt;
+&lt;p&gt;GitHub Pages will display content from a specific branch of your repository. If it’s a project site, it’ll display from &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;, and if it’s a personal site, it’ll display from &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As far as I can tell, if it find something it could potentially build in that branch, like a &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;, it’ll try to build it. But if it’s just a collection of static HTML/CSS files then it’ll just display those. So with that in mind, my repo has two branches: &lt;code class=&quot;highlighter-rouge&quot;&gt;dev&lt;/code&gt;, which contains all the build information, and &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;, which is just the site files. I don’t ever really need to push anything to &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; - everything goes to &lt;code class=&quot;highlighter-rouge&quot;&gt;dev&lt;/code&gt;, Travis builds it, then pushes the build to &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tokens&quot;&gt;tokens&lt;/h3&gt;
+&lt;p&gt;To give Travis permission to deploy your site, you’ll need to supply it with a &lt;strong&gt;personal access token&lt;/strong&gt; from &lt;a href=&quot;https://github.com/settings/tokens&quot;&gt;github.com/settings/tokens&lt;/a&gt;. I’ve given mine &lt;code class=&quot;highlighter-rouge&quot;&gt;repo&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;admin:repo_hook&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; permissions.&lt;/p&gt;
+
+&lt;p&gt;Add the token value as an environment variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;GITHUB_TOKEN&lt;/code&gt; in the project settings on Travis.&lt;/p&gt;
+
+&lt;h2 id=&quot;build-script&quot;&gt;build script&lt;/h2&gt;
+&lt;p&gt;You need a script for Travis to run to build and deploy the site. I’ve called mine &lt;code class=&quot;highlighter-rouge&quot;&gt;build.sh&lt;/code&gt; and it just lives in the root folder on &lt;code class=&quot;highlighter-rouge&quot;&gt;dev&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;It has three main parts:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-build&quot;&gt;1. build&lt;/h3&gt;
+&lt;p&gt;Whatever commands you need to build the site. For mine, this is pretty much just:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-rearrange&quot;&gt;2. rearrange&lt;/h3&gt;
+&lt;p&gt;Organise the repository so it can be pushed to master. My site is built to a folder called &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt;, so I can just switch to that directory and set it up as a new git repository.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# change to build directory&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;_site
+
+&lt;span class=&quot;c&quot;&gt;# set up a new git repo&lt;/span&gt;
+git init
+&lt;span class=&quot;nv&quot;&gt;DEPLOY_REPO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GITHUB_TOKEN&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;@github.com/alycejenni/alycejenni.github.io.git&quot;&lt;/span&gt;
+git remote add origin &lt;span class=&quot;nv&quot;&gt;$DEPLOY_REPO&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-deploy&quot;&gt;3. deploy&lt;/h3&gt;
+&lt;p&gt;Actually commit and push everything.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# deploy&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;:rocket: #&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$TRAVIS_BUILD_NUMBER&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+git push &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--no-verify&lt;/span&gt; origin HEAD:master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This &lt;em&gt;will&lt;/em&gt; overwrite all your previous commits to the master branch, so if you want to keep them then you’ll have to find some other way around it. All the commits to dev are preserved though so that should be fine.&lt;/p&gt;
+
+&lt;h2 id=&quot;travis-setup&quot;&gt;travis setup&lt;/h2&gt;
+
+&lt;h3 id=&quot;web-setup&quot;&gt;web setup&lt;/h3&gt;
+&lt;p&gt;There are only really two things you need to do:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Enable builds for your repo (go to your profile and flip the switch next to your repo name to ‘on’);&lt;/li&gt;
+  &lt;li&gt;Add the &lt;code class=&quot;highlighter-rouge&quot;&gt;GITHUB_TOKEN&lt;/code&gt; environment variable (see above).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;travisyml&quot;&gt;.travis.yml&lt;/h3&gt;
+&lt;p&gt;This is the file in your root directory that tells travis how to build your project. Mine is largely based on &lt;a href=&quot;https://jekyllrb.com/docs/continuous-integration/travis-ci&quot;&gt;this guide&lt;/a&gt; in the Jekyll docs.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# language to use&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ruby&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2.5.0&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# build script to run; just a shell command&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;before_script&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;chmod +x ./build.sh&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;./build.sh&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# only run for pushes to these branches&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;only&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dev&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# some variables for speed improvements&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;global&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;NOKOGIRI_USE_SYSTEM_LIBRARIES=true&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;sudo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;thats-it&quot;&gt;that’s it&lt;/h2&gt;
+&lt;p&gt;Once that’s all set up, push to dev and Travis should start building. It might take a couple of minutes, but at the end it should then push your site to the &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch, which will then be displayed at your URL.&lt;/p&gt;</content><author><name>Alice Butcher</name></author><summary type="html">Anyone who looks at the commit history for my github.io page will notice that I had a little bit of trouble getting it to work the way I wanted. So partly for my benefit and partly for anyone in the same boat who might stumble across this, I’m going to go through my now functional deployment process. It might not be the best way to do anything, and it might not be pretty, but it works and at the moment I’m happy with that.</summary></entry></feed>
