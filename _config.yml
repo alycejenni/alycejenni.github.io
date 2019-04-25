@@ -5,9 +5,9 @@ markdown:         kramdown
 title:            coding @ dusk
 tagline:          'rambles about code, cats, and other nonsense.'
 description:      'rambles about code, cats, and other nonsense.'
-url:              https://alycejenni.github.io
+url:              https://alycejenni.uk
 baseurl:          ''
-version:          0.1
+version:          0.2
 
 # plugins and themes
 paginate:         5

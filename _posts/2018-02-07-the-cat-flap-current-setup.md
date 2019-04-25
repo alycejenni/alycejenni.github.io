@@ -2,8 +2,7 @@
 layout: "post"
 title: "the cat flap: current setup"
 date: "2018-04-02"
-categories: [raspberry-pi]
-tags: [cat, raspberry-pi]
+categories: [cat, raspberry-pi]
 ---
 
 >"Hey, did you give the cat half a dead rabbit for dinner?"

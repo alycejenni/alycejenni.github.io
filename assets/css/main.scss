@@ -1,7 +1,6 @@
 ---
 # scss variable overrides
 ---
-
 @import "colours";
 @import "typography";
 
@@ -89,4 +88,27 @@ video {
   &, & ul {
     list-style-type: none;
   }
+}
+
+.tag-post-date {
+  margin-left: 1em;
+}
+
+.tag-title {
+  margin-left: 0.5em;
+}
+
+.pill {
+  background: $link-color;
+  color: $body-bg;
+  margin-left: 0.25em;
+  border-radius: 1000px;
+  font-size: 0.5em;
+  font-weight: normal;
+  padding: 0.1em 0.6em 0.2em;
+  vertical-align: middle;
+}
+
+.tag-header {
+  margin-bottom: 1em;
 }

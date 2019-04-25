@@ -2,7 +2,7 @@
 layout: "post"
 title: "the cat flap: introduction"
 date: "2018-01-14"
-tags: [cat, raspberry-pi]
+categories: [cat, raspberry-pi]
 ---
 
 My cat, as I tell anyone who'll listen, is a monster.

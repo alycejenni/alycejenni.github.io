@@ -4,11 +4,15 @@ title: about
 sidebar_link: true
 ---
 
-Call me Alice or Ginger :)
+Call me Ginger :)
 
-I write (mostly Python) code, talk about my cat a lot, and have a possibly slightly unnatural obsession with the study of human remains.
-
-I have no idea what I'm doing.
+This blog gets updated very sporadically, when I have the motivation to do so. It doesn't have a specific theme, but likely topics include:
+- code
+- microcontrollers
+- my cat
+- museums
+- forensics
+- mental illness and mental health
 
 ---
 
@@ -16,4 +20,4 @@ I have no idea what I'm doing.
 
 ---
 
-<small>theme is a modified version of [hydeout](https://fongandrew.github.io/hydeout)</small>
+<small>this theme is a modified version of [hydeout](https://fongandrew.github.io/hydeout)</small>

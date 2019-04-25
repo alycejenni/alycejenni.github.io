@@ -2,7 +2,7 @@
 layout: "post"
 title: "deploying to github pages with travis ci"
 date: "2018-01-13"
-tags: [meta]
+categories: [meta]
 ---
 
 Anyone who looks at the commit history for my github.io page will notice that I had a _little_ bit of trouble getting it to work the way I wanted.
